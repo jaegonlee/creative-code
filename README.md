@@ -4,4 +4,4 @@
 
 프로세싱, 아두이노 참고도서
 
-https://docs.google.com/spreadsheets/d/1ZuupSco3-L-7rfwUp50mkTB6Y7p5DXO6VzRpy7Fyrdw/edit#gid=1
+https://docs.google.com/spreadsheets/d/1ZuupSco3-L-7rfwUp50mkTB6Y7p5DXO6VzRpy7Fyrdw/edit?usp=sharing
