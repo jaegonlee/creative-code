@@ -1,7 +1,12 @@
 ### Setup
 1. Installing the client library
-
+```
   pip3 install --upgrade google-cloud-speech
+  
+  brew install portaudio
+  
+  pip3 install pyaudio
+``` 
 
 2. Setting up authentication
 
