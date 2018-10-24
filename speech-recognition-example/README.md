@@ -1,8 +1,8 @@
 ### Setup
-pip3 install google-cloud-speech
+pip3 install --upgrade google-cloud-speech
 
 ### Run
-run SpeechServer.pde(processing)
+1. run SpeechServer.pde(processing)
 
-python3 transcribe_streaming_indefinite.py
+2. python3 transcribe_streaming_indefinite.py
 
