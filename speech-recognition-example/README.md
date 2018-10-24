@@ -3,7 +3,7 @@
 ```
   $pip3 install --upgrade google-cloud-speech
   
-  $brew install portaudio
+  $brew install portaudio (mac os)
   
   $pip3 install pyaudio
 ``` 
