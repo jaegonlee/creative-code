@@ -1,6 +1,6 @@
-#Setup
+## Setup
 pip3 install google-cloud-speech
 
-#Run
+## Run
 python3 transcribe_streaming_indefinite.py
 
