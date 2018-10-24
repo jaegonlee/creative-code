@@ -1,11 +1,11 @@
 ### Setup
-Installing the client library
+1. Installing the client library
 
-pip3 install --upgrade google-cloud-speech
+  pip3 install --upgrade google-cloud-speech
 
-Setting up authentication
+2. Setting up authentication
 
-https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python
+  https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python
 
 
 ### Run
