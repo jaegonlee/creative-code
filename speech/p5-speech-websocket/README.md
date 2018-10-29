@@ -1,1 +1,1 @@
-#### Run .pde first!
+#### Run receiver.pde(processing) first!
