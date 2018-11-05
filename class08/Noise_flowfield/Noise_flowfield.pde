@@ -17,14 +17,13 @@ void draw() {
     noStroke();
     stroke(0, 10);
     for (int i = 0; i<no; i++) {
-        float z = noise(px[i] * 0.005, py[i] * 0.005, zoff) * TWO_PI * 2.0;
-        if (px[i] > width) px[i] = 0;
-        if (px[i] < 0) px[i] = width;
-        if (py[i] > height) py[i] = 0;
-        if (py[i] < 0) py[i] = height;
+        float z = noise(px[i] * 0.005, py[i] * 0.005) * TWO_PI * 2.0;
+        //if (px[i] > width) px[i] = 0;
+        //if (px[i] < 0) px[i] = width;
+        //if (py[i] > height) py[i] = 0;
+        //if (py[i] < 0) py[i] = height;
         px[i] += cos(z);
         py[i] += sin(z);
         line(px[i], py[i], px[i]+cos(z), py[i]+sin(z));
     }
-    zoff+=0.01;
 }
