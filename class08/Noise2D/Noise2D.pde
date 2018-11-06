@@ -16,8 +16,8 @@ void draw() {
         float yoff = 0.0;   
         for (int y = 0; y < height; y++) {
             yoff += 0.01;
-            float bright = random(0, 255);
-//            float bright = noise();
+//            float bright = random(0, 255);
+            float bright = noise(xoff) * 255;
 
             set(x, y, color(bright));
         }
