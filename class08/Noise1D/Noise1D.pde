@@ -16,11 +16,9 @@ void draw() {
     fill(0, 10);
     rect(0, 0, width, height);
 
-    float n = random(0, width); 
-
-    //    float n = noise();
-
-    // xoff = 0;
+//    float n = random(0, width); 
+    float n = noise(xoff);
+    xoff += 0.01;
 
     fill(200);
     ellipse(n, height/2, 64, 64);
