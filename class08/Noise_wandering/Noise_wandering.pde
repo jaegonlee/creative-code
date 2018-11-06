@@ -16,8 +16,8 @@ void draw() {
 
     fill(200);
 
-    x += 1;
-    y += 1;
+    x += cos(n);
+    y += sin(n);
     
     ellipse(x, y, 15, 15);
 }
